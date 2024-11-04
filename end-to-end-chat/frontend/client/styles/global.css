@@ -1,0 +1,66 @@
+#register {
+    display: none;
+}
+
+#rooms {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+}
+
+#create {
+    display: none;
+}
+
+#chats-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+#room-friends {
+    display: none;
+}
+
+#room-id {
+    display: none;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+
+#rooms-container {
+    width: 30vw;
+    min-width: 200px;
+    border-right: 1px solid rgb(191, 202, 196);
+
+}
+
+#show-room {
+    width: 70vw;
+}
+
+#chats-container {
+    height: 70vh;
+}
+
+#show-room {
+    display: none;
+}
+
+#rooms-container div[id^="room-"] {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(191, 202, 196);
+}
+
+.chat {
+    margin-left: 15px;
+    line-height: 10px;
+}
+
+#chat-input {
+    margin-left: 15px;
+    width: 50vw;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/global.css" />
+</head>
+<body>
+    <div id="login">
+        <h1>Log in</h1>
+        <p>name</p>
+        <input type="text" id="login-name"></input>
+        <p>password</p>
+        <input type="text" id="login-password"></input>
+        <button id="login-submit">submit</button>
+        <p>Not registered? Here:</p>
+        <button id="login-register">register</button>
+    </div>
+    <div id="register">
+        <h1>Register</h1>
+        <p>name</p>
+        <input type="text" id="register-name"></input>
+        <p>password</p>
+        <input type="text" id="register-password"></input>
+        <p>confirm password</p>
+        <input type="text" id="register-confirm"></input>
+        <button id="register-submit">submit</button>
+        <p>Go back to login:</p>
+        <button id="register-login">login</button>
+    </div>
+    <div id="rooms">
+        <h1>Chat room</h1>
+        <button id="create-room">create room</button>
+        <button id="refresh">refresh</button>
+        <div id="main">
+            <div id="rooms-container"></div>
+            <div id="show-room">
+                <div id="chats-container"></div>
+                <textarea id="chat-input"></textarea>
+                <div id="room-friends"></div>
+                <div id="room-id"></div>
+            </div>
+        </div>
+    </div>
+    <div id="create">
+        <p>room mate</p>
+        <div id="mate-container">
+            <input type="text" id="mate-1" placeholder="roommate 1"></input>
+        </div>
+        <button id="add-more-mate">more roommate</button>
+        <button id="create-submit">submit</button>
+    </div>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
